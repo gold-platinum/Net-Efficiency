@@ -1,0 +1,6 @@
+[project]
+name = "Net-Efficiency"
+version = "1.0"
+dependencies = ["numpy", "pandas", "nba_api", "streamlit", "torch", "scikit-learn", "toml"]
+authors = [ {name = "Venkat Saharsh Pasupuleti", email = "<saharshvenkatp@gmail.com>"}]
+readme = "README.md"
