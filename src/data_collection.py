@@ -7,7 +7,7 @@ import time
 def fetch_player_stats(season):
     player_stats = []
 
-    for player in players.get_players()[:2]:
+    for player in players.get_players():
         try:
             stats = playercareerstats.PlayerCareerStats(player['id']).get_data_frames()[0]
 
